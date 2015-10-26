@@ -2,7 +2,7 @@ package main
 
 import (
 	"errors"
-	"github.com/joonazan/imagick/imagick"
+	"github.com/phzfi/RIC/imagick/imagick"
 	"path/filepath"
 	"testing"
 )
