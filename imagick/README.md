@@ -2,16 +2,12 @@
 
 Go Imagick is a Go bind to ImageMagick's MagickWand C API.
 
-<<<<<<< HEAD
-This version is compatible with 6.8.9.
-=======
 Current branch compatibility:
 
 ```
 MASTER:   <= ImageMagick 6.8.8
 im-6.8.9: >= ImageMagick 6.8.9
 ```
->>>>>>> dd05384e101986c43a8db4b7b8e493a083d3db16
 
 It was originally developed and tested with ImageMagick 6.8.5-4, however most official Unix or Linux distributions use older
 versions (6.7.7, 6.8.0, etc) so some features in Go Imagick's master branch are being commented out and will see the light when
