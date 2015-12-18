@@ -1,4 +1,4 @@
-package main
+package server
 
 import (
 	"flag"
@@ -143,7 +143,7 @@ func NewServer(maxMemory uint64) (*graceful.Server, *MyHandler) {
 	return server, handler
 }
 
-func main() {
+func Main() {
 
 	// CLI arguments
 	mem := flag.Uint64("m", 500*1024*1024, "Sets the maximum memory to be used for caching images in bytes. Does not account for memory consumption of other things.")
